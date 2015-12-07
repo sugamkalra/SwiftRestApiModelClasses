@@ -15,6 +15,18 @@
 		151B5BE31C155780009E3B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151B5BE11C155780009E3B2F /* LaunchScreen.storyboard */; };
 		151B5BEE1C155780009E3B2F /* SwiftRestApiClassesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5BED1C155780009E3B2F /* SwiftRestApiClassesTests.swift */; };
 		151B5BF91C155780009E3B2F /* SwiftRestApiClassesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5BF81C155780009E3B2F /* SwiftRestApiClassesUITests.swift */; };
+		151B5C081C1557A5009E3B2F /* RESTApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C071C1557A5009E3B2F /* RESTApi.swift */; };
+		151B5C0A1C155810009E3B2F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C091C155810009E3B2F /* Reachability.swift */; };
+		151B5C0C1C155838009E3B2F /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C0B1C155838009E3B2F /* FoundationExtensions.swift */; };
+		151B5C0E1C15584B009E3B2F /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C0D1C15584B009E3B2F /* Config.swift */; };
+		151B5C101C155861009E3B2F /* AuthenticationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C0F1C155861009E3B2F /* AuthenticationUtil.swift */; };
+		151B5C121C15588F009E3B2F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C111C15588F009E3B2F /* SwiftyJSON.swift */; };
+		151B5C141C1558BB009E3B2F /* CaneSurveyFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C131C1558BB009E3B2F /* CaneSurveyFormData.swift */; };
+		151B5C161C1558C4009E3B2F /* CaneQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C151C1558C4009E3B2F /* CaneQuality.swift */; };
+		151B5C181C1558CF009E3B2F /* CaneQuota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C171C1558CF009E3B2F /* CaneQuota.swift */; };
+		151B5C1A1C1558EB009E3B2F /* CaneLabSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C191C1558EB009E3B2F /* CaneLabSample.swift */; };
+		151B5C1C1C155901009E3B2F /* GrowerCrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C1B1C155901009E3B2F /* GrowerCrop.swift */; };
+		151B5C1E1C155947009E3B2F /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B5C1D1C155947009E3B2F /* HelperFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		151B5BF41C155780009E3B2F /* SwiftRestApiClassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRestApiClassesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		151B5BF81C155780009E3B2F /* SwiftRestApiClassesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRestApiClassesUITests.swift; sourceTree = "<group>"; };
 		151B5BFA1C155780009E3B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151B5C071C1557A5009E3B2F /* RESTApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTApi.swift; sourceTree = "<group>"; };
+		151B5C091C155810009E3B2F /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		151B5C0B1C155838009E3B2F /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		151B5C0D1C15584B009E3B2F /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		151B5C0F1C155861009E3B2F /* AuthenticationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationUtil.swift; sourceTree = "<group>"; };
+		151B5C111C15588F009E3B2F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		151B5C131C1558BB009E3B2F /* CaneSurveyFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaneSurveyFormData.swift; sourceTree = "<group>"; };
+		151B5C151C1558C4009E3B2F /* CaneQuality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaneQuality.swift; sourceTree = "<group>"; };
+		151B5C171C1558CF009E3B2F /* CaneQuota.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaneQuota.swift; sourceTree = "<group>"; };
+		151B5C191C1558EB009E3B2F /* CaneLabSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaneLabSample.swift; sourceTree = "<group>"; };
+		151B5C1B1C155901009E3B2F /* GrowerCrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrowerCrop.swift; sourceTree = "<group>"; };
+		151B5C1D1C155947009E3B2F /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +123,7 @@
 		151B5BD41C155780009E3B2F /* SwiftRestApiClasses */ = {
 			isa = PBXGroup;
 			children = (
+				151B5C061C155797009E3B2F /* RestApiClasses */,
 				151B5BD51C155780009E3B2F /* AppDelegate.swift */,
 				151B5BD71C155780009E3B2F /* ViewController.swift */,
 				151B5BD91C155780009E3B2F /* Main.storyboard */,
@@ -126,6 +151,25 @@
 				151B5BFA1C155780009E3B2F /* Info.plist */,
 			);
 			path = SwiftRestApiClassesUITests;
+			sourceTree = "<group>";
+		};
+		151B5C061C155797009E3B2F /* RestApiClasses */ = {
+			isa = PBXGroup;
+			children = (
+				151B5C111C15588F009E3B2F /* SwiftyJSON.swift */,
+				151B5C071C1557A5009E3B2F /* RESTApi.swift */,
+				151B5C091C155810009E3B2F /* Reachability.swift */,
+				151B5C0B1C155838009E3B2F /* FoundationExtensions.swift */,
+				151B5C0D1C15584B009E3B2F /* Config.swift */,
+				151B5C0F1C155861009E3B2F /* AuthenticationUtil.swift */,
+				151B5C1D1C155947009E3B2F /* HelperFunctions.swift */,
+				151B5C131C1558BB009E3B2F /* CaneSurveyFormData.swift */,
+				151B5C151C1558C4009E3B2F /* CaneQuality.swift */,
+				151B5C171C1558CF009E3B2F /* CaneQuota.swift */,
+				151B5C191C1558EB009E3B2F /* CaneLabSample.swift */,
+				151B5C1B1C155901009E3B2F /* GrowerCrop.swift */,
+			);
+			name = RestApiClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +303,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151B5C141C1558BB009E3B2F /* CaneSurveyFormData.swift in Sources */,
+				151B5C1C1C155901009E3B2F /* GrowerCrop.swift in Sources */,
+				151B5C1A1C1558EB009E3B2F /* CaneLabSample.swift in Sources */,
+				151B5C081C1557A5009E3B2F /* RESTApi.swift in Sources */,
+				151B5C101C155861009E3B2F /* AuthenticationUtil.swift in Sources */,
+				151B5C1E1C155947009E3B2F /* HelperFunctions.swift in Sources */,
 				151B5BDE1C155780009E3B2F /* SwiftRestApiClasses.xcdatamodeld in Sources */,
+				151B5C0C1C155838009E3B2F /* FoundationExtensions.swift in Sources */,
+				151B5C0E1C15584B009E3B2F /* Config.swift in Sources */,
 				151B5BD81C155780009E3B2F /* ViewController.swift in Sources */,
+				151B5C181C1558CF009E3B2F /* CaneQuota.swift in Sources */,
+				151B5C161C1558C4009E3B2F /* CaneQuality.swift in Sources */,
+				151B5C121C15588F009E3B2F /* SwiftyJSON.swift in Sources */,
+				151B5C0A1C155810009E3B2F /* Reachability.swift in Sources */,
 				151B5BD61C155780009E3B2F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
